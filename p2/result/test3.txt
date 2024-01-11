@@ -1,0 +1,21 @@
+A pre-lock
+B pre-lock
+C pre-lock
+D pre-lock
+relseasing!!
+relseasing!!
+relseasing!!
+relseasing!!
+F pre-lock
+G pre-lock
+H pre-lock
+I pre-lock
+A done
+B done
+C done
+D done
+F done
+G done
+H done
+I done
+All CPUs suspended.  Exiting.

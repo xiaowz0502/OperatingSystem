@@ -1,0 +1,37 @@
+Test5 correct output
+
+Pager started with 4 physical memory pages
+vm_create       (1369435, 1370483)
+vm_create returned 0
+vm_switch       (1370483)
+                                        returning to (1370483) with pages:
+vm_map          (1370483)       0x0     0
+vm_map returned 0x600000000
+                                        returning to (1370483) with pages:
+                                        r       vpage 0x60000   ppage 0x0
+vm_fault        (1370483)       0x600000000     write
+vm_fault returned 0
+                                        returning to (1370483) with pages:
+                                        rw      vpage 0x60000   ppage 0x1
+vm_map          (1370483)       0x600000000     0
+vm_map returned 0x600010000
+                                        returning to (1370483) with pages:
+                                        rw      vpage 0x60000   ppage 0x1
+vm_map          (1370483)       0x600000000     1
+vm_map returned 0x600020000
+                                        returning to (1370483) with pages:
+                                        rw      vpage 0x60000   ppage 0x1
+vm_fault        (1370483)       0x600010000     read
+file_read       lampson83.txt   0
+vm_fault returned 0
+                                        returning to (1370483) with pages:
+                                        rw      vpage 0x60000   ppage 0x1
+                                        r       vpage 0x60001   ppage 0x2
+vm_fault        (1370483)       0x600020000     read
+file_read       lampson83.txt   1
+block out of range
+vm_fault returned -1
+                                        returning to (1370483) with pages:
+                                        rw      vpage 0x60000   ppage 0x1
+                                        r       vpage 0x60001   ppage 0x2
+vm_destroy      (1370483)

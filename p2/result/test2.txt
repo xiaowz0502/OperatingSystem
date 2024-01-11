@@ -1,0 +1,22 @@
+A locked
+B locked
+C locked
+D locked
+relseasing!!
+relseasing!!
+relseasing!!
+relseasing!!
+broadcasting!!
+A wait end
+A unlocked
+B wait end
+B unlocked
+C wait end
+C unlocked
+D wait end
+D unlocked
+F locked
+G locked
+H locked
+I locked
+All CPUs suspended.  Exiting.

@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "name": "EECS482-P4",
+            "includePath": [
+                "${workspaceFolder}/inc",
+                "${workspaceFolder}/inc/handout"
+            ],
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "defines": [
+                "_XOPEN_SOURCE"
+            ]
+        }
+    ],
+    "version": 4
+}
